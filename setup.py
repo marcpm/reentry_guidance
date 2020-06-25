@@ -25,6 +25,7 @@ REQUIRED = [
     'numpy',
     'scipy',
     'matplotlib',
+    'pandas',
     'plotly',
     "jupyter",
     "appmode",
