@@ -13,8 +13,8 @@ from setuptools import find_packages, setup, Command
 
 # Package meta-data.
 NAME = 'reentry1'
-DESCRIPTION = 'Atmospheric Reentry'
-URL = 'https://github.com/marcpm/reentry'
+DESCRIPTION = 'Atmospheric Reentry Guidance'
+URL = 'https://github.com/marcpm/reentry_guidance'
 EMAIL = 'marcpm@gmx.de'
 AUTHOR = 'Marc PM'
 REQUIRES_PYTHON = '>=3.6.0'
@@ -25,6 +25,7 @@ REQUIRED = [
     'numpy',
     'scipy',
     'matplotlib',
+    'plotly',
     "jupyter",
     "appmode",
 
